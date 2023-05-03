@@ -1,0 +1,48 @@
+
+.getting-started{
+    position: relative;
+    display: inline-block;
+  }
+.getting-started-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .getting-started:hover .getting-started-content {
+    display:block;
+  }
+
+
+  .beyond-the-basics{
+    position: relative;
+    display: inline-block;
+  }
+
+  .beyond-the-basics-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .beyond-the-basics:hover .beyond-the-basics-content {
+    display:block;
+  }
+
+  .menu-item{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+  }
+  .menu-headlines{
+    color: #FC527E;
+    padding-left:8px; 
+    padding-right: 8px; }
