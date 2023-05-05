@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="main.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki&display=swap" rel="stylesheet">
 
 <!-- <div class="sidemenu">
    <div> <a class="dropdown">Getting Started</a></div>
@@ -37,12 +38,15 @@
       </div>   -->
 
       <div>
-        <menu role="menu" class="side-menu">
-            <div class="menu-item">
-                <img src="imgs/GS.svg" alt="getting-started-icon" class="menu-icons"> 
-                <div> <span class="menu-headlines">GETTING STARTED</span></div>
-                <div> <img class="animated-icon" src="imgs/Forward.svg"></div>
+        <div class="side-menu">
+            <div id="GS" class="menu-item">
+              <img src="imgs/GS.svg" alt="getting-started-icon" class="menu-icons"> 
+                <div class="menu-headlines">GETTING STARTED</div>
+                <div> <img class="animated-icon" src="imgs/Forward.svg">
+                    
+                </div>
             </div>
+           
             <div class="menu-item">
                 <img src="imgs/Edit.svg" alt="BTB-icon" class="menu-icons"> 
                 <div class="menu-headlines">BEYOND THE BASICS</div>
@@ -60,11 +64,19 @@
             </div>
             
             <div class="menu-item">
-                <img src="imgs/Help.svg" alt="trouble-shooting-icon" class="menu-icons"> 
+                <img src="imgs/Help.svg" alt="trouble-shooting-icon" class="menu-icons" > 
                 <div class="menu-headlines">TROUBLESHOOTING</div>
-                <img class="animated-icon" src="imgs/Forward.svg">
+                <div ><img class="animated-icon" src="imgs/Forward.svg" id="tb"></div>
             </div>
-        </menu>
+        </div>
+
+        <div id="submenu" class="item-content">
+            <li>Hello World!</li>
+            <li>Hello World!</li>
+            <li>Hello World!</li>
+        </div>
       
 </body>
-</html>
+<script src="main.js"></script>
+
+</html
