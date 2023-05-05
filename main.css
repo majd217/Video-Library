@@ -33,23 +33,28 @@
     display:block;
   } */
 
-  .menu-item{
+  .menu-item:not(:last-of-type)
+  {
+    margin-bottom: 15px;
+  }
+
+  .menu-header
+  {
     display: flex;
     flex-direction: row;
-    padding-bottom: 15px;
   }
-  .menu-headlines{
+
+  .menu-headlines
+  {
     font-family:'Inter';
     color: #FC527E;
     padding-left:8px; 
-    padding-right: 8px; }
+    padding-right: 8px; 
+  }
 
-    /* .item-content{
-        display:none;
-
-    } */
-
-    #submenu{
-        display:none;
-        color: rebeccapurple;
-    }
+  .item-content
+  {
+      flex-direction: column;
+      display:none;
+      color: rebeccapurple;
+  }
