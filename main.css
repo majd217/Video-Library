@@ -1,5 +1,9 @@
 
 
+  body
+  {
+    background-color: #F5F5F5;
+  }
   .menu-item:not(:last-of-type)
   {
     margin-bottom: 15px;
@@ -23,6 +27,8 @@
   {
     flex-direction: column;
     display:none;
+    padding-left: 0;
+     
   }
 
   .animated-icon
@@ -36,4 +42,26 @@
     transform: rotate(90deg);
     transition: transform 200ms linear;
   }
+
+  .subitem
+  {
+    padding-right: 10px;
+    padding-left: 30px;
+    /* background-color: #FC527E; */
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+    
+  }
+
+  .subitem:not(:last-of-type)
+  {
+    padding-bottom: 18px;
+  }
   
+  .subitem-selected 
+  {
+    border-left-style: solid;
+    border-left-color: #FC527E;
+    background-color: #E7E4E4;
+  }
