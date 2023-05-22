@@ -3,6 +3,8 @@ const iconArray = document.getElementsByClassName('animated-icon'); //returns ar
 const iconOpenArray = document.getElementsByClassName('animated-icon-open');
 const subMenuArray = document.getElementsByClassName('item-content');
 
+
+
 for(let subMenu of subMenuArray)
 {
     subMenu.style.display = 'none';
@@ -27,13 +29,14 @@ for(let icon of iconArray){
                 }
             }
 
+           
             event.target.className = (event.target.className == "animated-icon") ? "animated-icon-open" : "animated-icon";
             event.target.parentElement.nextElementSibling.style.display = (event.target.parentElement.nextElementSibling.style.display == 'none') ? 'flex' : "none";
+
        });
 
 }
 
 
-//Its applied thru
 
    

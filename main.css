@@ -1,5 +1,5 @@
 
-
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif+Khojki);
   body
   {
     background-color: #F5F5F5;
@@ -46,22 +46,41 @@
   .subitem
   {
     padding-right: 10px;
-    padding-left: 30px;
-    /* background-color: #FC527E; */
+    padding-left: 15px;
     width: fit-content;
+    height: fit-content;
     text-decoration: none;
-    color: black;
-    
-  }
 
-  .subitem:not(:last-of-type)
-  {
-    padding-bottom: 18px;
   }
   
-  .subitem-selected 
-  {
+  .title:hover{
     border-left-style: solid;
     border-left-color: #FC527E;
     background-color: #E7E4E4;
+    width: fit-content;
+    height: fit-content;
+    color:#747474;
   }
+
+  .title:focus{
+    border-left-style: solid;
+    border-left-color: #FC527E;
+    background-color: #E7E4E4;
+    width: fit-content;
+    height: fit-content;
+    color:#747474;
+  }
+
+  .title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color:#747474; 
+  }
+ 
+
+ 
+
+
+  
